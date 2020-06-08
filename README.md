@@ -15,7 +15,6 @@ Script to manage the tasks wtih text user interface.
 Uses SQLite to storege and manipulate and pandas to represent it nice in text editor.
 Records are dentified by a hash value calculated from its contents.
 
-----------------------------------------------------------
                       COMMAND LIST
 
 To list all tasks                            -  list_all
@@ -31,8 +30,6 @@ To edit task                                 -  edit
 To remove task                               -  remove
 
 To quit                                      -  quit
-
--------------------------------------------------------------------
 
 # Chapter_3:
 Checks haw many numbers in range 372 ** 2 and 809 ** 2(both ends inclusive)
