@@ -2,6 +2,13 @@
 This project is a recruitment task for the skygate internship 2020.
 author Szymon Grzebyta
 
+## Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install pandas
+```
+
 # Chapter_1:
 Implementation of a Car class that has the following attributes:
 - pax_count -- number of passengers riding in the car (including the driver),
