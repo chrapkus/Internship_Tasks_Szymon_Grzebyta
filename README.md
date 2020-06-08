@@ -3,7 +3,7 @@ This project is a recruitment task for the skygate internship 2020.
 author Szymon Grzebyta
 
 ## Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas.
 
 ```bash
 pip install pandas
