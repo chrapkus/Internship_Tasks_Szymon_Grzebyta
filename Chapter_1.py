@@ -1,4 +1,11 @@
-# First Task - creation of Car class
+# ----------------------------------------------------------------------------------------------
+# Implement a Car class that has the following attributes:
+# pax_count -- number of passengers riding in the car (including the driver),
+# car_mass -- mass of the empty car (in kg),
+# gear_count -- number of gears.
+# and method:
+# total_mass - estimate mass of a car instance, assuming that an average person weight is 70 kg:
+# ----------------------------------------------------------------------------------------------
 
 class Car:
 
@@ -8,7 +15,7 @@ class Car:
         self.car_mass = car_mass
         self.gear_count = gear_count
 
-
+    # rebuild to hold specific exceptions
     def __setattr__(self, key, value):
 
         if key == 'pax_count' and (value < 1 or value > 5):
@@ -25,8 +32,21 @@ class Car:
 
         return self.car_mass + self.pax_count*70
 
-t = Car(1, 2000, 5)
-print(t)
+
+if __name__ == '__main__':
+
+    # test class exceptions with correct values
+    test_car = Car(1, 2000, 5)
+    print(test_car.total_mass())
+
+    # test class exceptions with incorrect values
+    test_car.pax_count = 2
+    test_car.car_mass = 2100
+    test_car.gear_count = 6
+
+
+
+
 
 
 
