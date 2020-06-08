@@ -24,19 +24,13 @@ Records are dentified by a hash value calculated from its contents.
 
 COMMAND LIST
 
-To list all tasks                            -  list_all
-
-To list all tasks in given period            - list
-
-To find specific task by name                -  show
-
-To add new task                              -  add
-
-To edit task                                 -  edit
-
-To remove task                               -  remove
-
-To quit                                      -  quit
+- To list all tasks                            -  list_all
+- To list all tasks in given period            - list
+- To find specific task by name                -  show
+- To add new task                              -  add
+- To edit task                                 -  edit
+- To remove task                               -  remove
+- To quit                                      -  quit
 
 # Chapter_3:
 Program checks haw many numbers in range 372 ** 2 and 809 ** 2(both ends inclusive)
