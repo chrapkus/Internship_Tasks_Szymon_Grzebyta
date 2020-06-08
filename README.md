@@ -36,4 +36,5 @@ Program checks haw many numbers in range 372 ** 2 and 809 ** 2(both ends inclusi
 meet the requirements of: 
 - There are at least two groups of identical adjacent digits (like 11 and 33 in 1123345).
 - Going from left to right, the digits never decrease; they only ever increase or stay the same
+
 and print all of them.
