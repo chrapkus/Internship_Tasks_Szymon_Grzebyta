@@ -3,7 +3,7 @@ This project is a recruitment task for the skygate internship 2020.
 author Szymon Grzebyta
 
 # Chapter_1:
-Implement a Car class that has the following attributes:
+Implementation of a Car class that has the following attributes:
 - pax_count -- number of passengers riding in the car (including the driver),
 - car_mass -- mass of the empty car (in kg),
 - gear_count -- number of gears.
@@ -32,7 +32,8 @@ To remove task                               -  remove
 To quit                                      -  quit
 
 # Chapter_3:
-Checks haw many numbers in range 372 ** 2 and 809 ** 2(both ends inclusive)
+Program checks haw many numbers in range 372 ** 2 and 809 ** 2(both ends inclusive)
 meet the requirements of: 
 - There are at least two groups of identical adjacent digits (like 11 and 33 in 1123345).
 - Going from left to right, the digits never decrease; they only ever increase or stay the same
+and print all of them.
