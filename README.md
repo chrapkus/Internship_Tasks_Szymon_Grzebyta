@@ -1,5 +1,5 @@
-# Skygate_Internship
-This project is a recruitment task for the skygate internship 2020.
+# Internship
+This project is a recruitment task for the internship 2020.
 author Szymon Grzebyta
 
 ## Installation
